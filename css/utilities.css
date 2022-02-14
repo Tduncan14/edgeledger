@@ -51,6 +51,46 @@ color:#fff;
 
 .btn-light{
     background: #f4f4f4;
-    color:white;
+    color:333;
+
+}
+
+
+/* flex items */
+
+.flex-items{
+    display:flex;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+
+.flex-items > div {
+    padding:20px;
+}
+
+
+/* flex column */
+.flex-columns {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width:100%;
+}
+
+.flex-columns .column{
+    display:flex;
+    /* flex-direction:column; */
+    flex-basis:100%;
+    flex:1;
+}
+
+
+.flex-columns .column .column-1, .flex-columns .column .column-2{
+
+    height:100%;
+
+
 
 }
