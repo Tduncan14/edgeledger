@@ -158,3 +158,8 @@ img{
 
 
 
+/* cases */
+
+.cases img:hover{
+    opacity:0.7;
+}
