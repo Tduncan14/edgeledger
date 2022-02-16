@@ -82,7 +82,7 @@ color:#fff;
 
 .bg-light{
     background: #f4f4f4;
-    color:333;
+    color:#333;
 
 }
 
@@ -199,7 +199,7 @@ color:#fff;
 /* flex reversing */
 
 .flex-columns.flex-reverse .row{
-    display:flex;
+   
     flex-direction:row-reverse;
 }
 
